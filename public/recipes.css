@@ -1,0 +1,13 @@
+.recipes{
+    margin-top: 3em;
+}
+.footer{
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+}
+@media(max-width: 992px){
+    .recipe-list{
+        display: none;
+    }
+}

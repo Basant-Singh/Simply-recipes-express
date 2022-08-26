@@ -1,0 +1,16 @@
+<div class="recipe">
+    <% for(let i=0;i<num;i++){ %>
+        <a href="/single-recipe">
+            <% if(i===3 || i===2){ %>
+                <img src="assets/recipes/recipe-<%=i+1%>.jpeg" alt="food">
+            <% } else{ %> 
+                <img src="assets/recipes/recipe-<%=i+1%>.jpg" alt="food">
+            <% } %> 
+            <figcaption>
+                <h3 class="title"><%= data[i].heading %> </h3>
+                <p class="time"><%= data[i].time %> </p>
+            </figcaption>
+        </a>
+    <% } %>
+    
+</div>

@@ -1,0 +1,25 @@
+<%- include("partials/head") %> 
+<!-- main container start -->
+<main class="main-container">
+    <%- include("partials/navBar") %>  
+    <!-- hero start -->
+    <div class="hero">
+        <h1>Simply Recipes</h1>
+        <h2>No Fluff, Just Recipes</h2>
+    </div>
+    <!-- hero end -->
+    <section class="recipes">
+        <div class="recipe-list">
+            <h3>Recipes</h3>
+            <ul>
+                <li class="recipe-list-tag"><a href="/tag-template">Salad (1)</a></li>
+                <li class="recipe-list-tag"><a href="/tag-template">Breakfast (2)</a></li>
+                <li class="recipe-list-tag"><a href="/tag-template">Carrots (3)</a></li>
+                <li class="recipe-list-tag"><a href="/tag-template">Food (4)</a></li>
+            </ul>
+        </div>
+       <%- include("partials/recipe") %> 
+    </section>
+</main>
+<!-- main container end -->
+<%- include("partials/footer") %> 

@@ -1,0 +1,19 @@
+<%- include("partials/head") %> 
+<main class="main-container">
+    <link rel="stylesheet" href="/recipes.css">
+    <%- include("partials/navBar") %> 
+    <section class="recipes">
+        <div class="recipe-list">
+            <h3>Recipes</h3>
+            <ul>
+                <li class="recipe-list-tag"><a href="/tag-template">Salad (1)</a></li>
+                <li class="recipe-list-tag"><a href="/tag-template">Breakfast (2)</a></li>
+                <li class="recipe-list-tag"><a href="/tag-template">Carrots (3)</a></li>
+                <li class="recipe-list-tag"><a href="/tag-template">Food (4)</a></li>
+            </ul>
+        </div>
+        <%- include("partials/recipe") %> 
+    </section>
+
+</main>
+<%- include("partials/footer") %>

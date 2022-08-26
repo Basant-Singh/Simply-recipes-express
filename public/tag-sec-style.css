@@ -1,0 +1,8 @@
+.recipes{
+    margin-top: 3em;
+}
+.footer{
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+}
